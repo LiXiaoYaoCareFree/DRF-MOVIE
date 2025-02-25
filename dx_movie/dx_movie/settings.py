@@ -162,10 +162,10 @@ SIMPLE_JWT = {
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.163.com'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = 'fengchunlong0510@163.com'  
-EMAIL_HOST_PASSWORD = 'IIBSSIVCOPDCIYCJ'
-DEFAULT_FROM_EMAIL = 'fengchunlong0510@163.com'
-# EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'LiXiaoYaoCareFree@163.com'  
+EMAIL_HOST_PASSWORD = 'RMtap33RqBzKcNrp'
+DEFAULT_FROM_EMAIL = 'LiXiaoYaoCareFree@163.com'
+EMAIL_USE_TLS = True
 
 # 配置djoser使用的User模型
 DJOSER = {
