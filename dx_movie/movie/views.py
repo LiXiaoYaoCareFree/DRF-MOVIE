@@ -1,14 +1,16 @@
+# 导入了 Movie 和 Category 模型，这些模型定义了电影和电影分类的信息。
 from movie.models import Movie, Category
 # 导入了序列化器，用于将模型数据转换为 JSON 格式，或将 JSON 数据转换回模型实例。
 from movie.serializers import MovieSerializer, CategorySerializer
 # 导入 Django REST framework 的通用视图类，虽然这里注释掉了，但它提供了常用的视图（如 ListCreateAPIView 和 RetrieveUpdateDestroyAPIView）来处理 CRUD 操作。
 from rest_framework import generics
+# 导入 Django-filter 的后台过滤器，用于处理基于字段的过滤。
 from django_filters.rest_framework import DjangoFilterBackend
-
+# 导入自定义的分页类，帮助处理分页逻辑。
 from utils.pagination import CustomPagination
+# 导入自定义的过滤器，用于对电影数据进行过滤。
 from .movie_filters import MovieFilter
-
-
+#
 from rest_framework import viewsets
 from django_filters import rest_framework as filters
 
